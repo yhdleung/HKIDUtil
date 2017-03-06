@@ -1,8 +1,6 @@
 # HKIDUtil
 PHP Utility functions designed to help tasks related to Hong Kong Identity Card (HKID).
 
-The HKID validation formula is based on the knowledge from Wikipedia. 
-
 ## Features
 * Support two-letter prefix (e.g. AB987654(2))
 * Parentheses are optional for HKID input
@@ -71,6 +69,7 @@ var_dump(HKIDUtil::validateDate('30/02/1970'));     // bool(false)
 See the LICENSE file for license rights and limitations (MIT).
 
 ## Reference
+This HKID validation formula is developed based on the information from Wikipedia. 
 維基百科, 香港身份證 (Wikipedia, Hong Kong Identity Card)
 https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF%E8%BA%AB%E4%BB%BD%E8%AD%89&variant=zh-hk#.E6.A0.A1.E9.A9.97.E7.A2.BC
 
