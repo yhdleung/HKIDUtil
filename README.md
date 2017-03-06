@@ -3,7 +3,7 @@ PHP Utility functions designed to help tasks related to Hong Kong Identity Card 
 
 ## Features
 * Support two-letter prefix (e.g. AB987654(2))
-* Parentheses are optional for HKID input
+* For HKID input, parentheses are optional 
 
 ## Requirement
 * PHP 5.3+
