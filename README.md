@@ -27,7 +27,7 @@ bool HKIDUtil::validateDate(string $date)
 ```
 
 ## Usage
-Include the utility function file and call the static functions.
+Include the utility function file and call the static functions
 ```PHP
 require_once("HKIDUtil.php");
 ```
