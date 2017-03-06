@@ -46,15 +46,15 @@ if(HKIDUtil::validateHKID('AB9876542')){ echo 'valid'; }     //returns 'valid'
 
 Generate random HKID
 ```PHP
-echo(HKIDUtil::randomHKID());     // e.g. LA654668(9)
+echo(HKIDUtil::randomHKID());     // returns e.g. 'LA654668(9)'
 
 for($i = 0; $i < 3; $i++){
     echo(HKIDUtil::randomHKID(0)) . PHP_EOL;
 }
-// e.g. 
-// Q2127047
-// J9009792
-// BA1196657
+// returns e.g. 
+// 'Q2127047'
+// 'J9009792'
+// 'BA1196657'
 ```
 
 Validate date format in 'dd-mm-yyyy' or 'dd/mm/yyyy'
