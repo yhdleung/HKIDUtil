@@ -70,8 +70,7 @@ See the LICENSE file for license rights and limitations (MIT).
 
 ## Reference
 This HKID validation formula is developed based on the information from Wikipedia. 
-維基百科, 香港身份證 (Wikipedia, Hong Kong Identity Card)
-https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF%E8%BA%AB%E4%BB%BD%E8%AD%89&variant=zh-hk#.E6.A0.A1.E9.A9.97.E7.A2.BC
+[維基百科, 香港身份證 (Wikipedia, Hong Kong Identity Card)](https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF%E8%BA%AB%E4%BB%BD%E8%AD%89&variant=zh-hk#.E6.A0.A1.E9.A9.97.E7.A2.BC)
 
 ## Contribution
 Pull request and issue report are welcome.
