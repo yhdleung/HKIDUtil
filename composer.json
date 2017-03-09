@@ -1,5 +1,5 @@
 {
-    "name": "yhdleung/HKIDUtil",
+    "name": "yhdleung/hkid-util",
     "description": "Utility functions for tasks related to Hong Kong Identity Card (HKID)",
     "keywords": ["HKID", "Hong Kong identity card", "Hong Kong"],
     "homepage": "https://github.com/yhdleung/HKIDUtil",
