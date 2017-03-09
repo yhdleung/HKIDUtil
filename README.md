@@ -1,6 +1,9 @@
 # HKIDUtil
 PHP Utility functions designed to help tasks related to Hong Kong Identity Card (HKID).
 
+[![Latest Stable Version](https://poser.pugx.org/yhdleung/hkid-util/v/stable)](https://packagist.org/packages/yhdleung/hkid-util)
+[![License](https://poser.pugx.org/yhdleung/hkid-util/license)](https://packagist.org/packages/yhdleung/hkid-util)
+
 ## Features
 * Support two-letter prefix (e.g. AB987654(2))
 * For HKID input, parentheses are optional 
