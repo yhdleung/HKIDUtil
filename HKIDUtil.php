@@ -17,7 +17,13 @@ class HKIDUtil
       return false;
     }
     // calculate check digit
-    $char_digits = array_map(function($x){return ord($x)-64;}, str_split($matches[1]));
+    $starting_chars = str_split($matches[1]);
+    $char_digits = array_map(function($x){
+      return ord(strtoupper($x))-55;
+    }, $starting_chars);
+    if(count($starting_chars)==1){
+      array_unshift($char_digits,3);
+    }
     $digits = array_merge($char_digits, str_split($matches[2]));
     $sum = 0;
     $len = count($digits);
@@ -33,7 +39,7 @@ class HKIDUtil
   /**
    * validate HKID format, with or without parentheses
    * 
-   * @param string $id AB987654(2)
+   * @param string $id AB987654(3)
    *
    * @return bool
    */
