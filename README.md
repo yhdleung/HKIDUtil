@@ -5,7 +5,7 @@ PHP Utility functions designed to help tasks related to Hong Kong Identity Card 
 [![License](https://poser.pugx.org/yhdleung/hkid-util/license)](https://packagist.org/packages/yhdleung/hkid-util)
 
 ## Features
-* Support two-letter prefix (e.g. AB987654(2))
+* Support two-letter prefix (e.g. AB987654(3))
 * For HKID input, parentheses are optional 
 
 ## Requirement
@@ -44,9 +44,9 @@ echo(HKIDUtil::getCheckDigit($testID));  // returns '9'
 
 Validate HKID format, check digit parentheses are optional
 ```PHP
-var_dump(HKIDUtil::validateHKID('AB987654(2)'));   // bool(true)
+var_dump(HKIDUtil::validateHKID('AB987654(3)'));   // bool(true)
 
-if(HKIDUtil::validateHKID('AB9876542')){ 
+if(HKIDUtil::validateHKID('AB9876543')){ 
     echo 'valid'; 
 }     //returns 'valid'
 ```
